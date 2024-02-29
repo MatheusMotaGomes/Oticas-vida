@@ -10,11 +10,12 @@ body{
   max-width: 1024px;
   margin: 0 auto;
 }
-h2,h3{
+main div h2,h3{
   text-transform: uppercase;
   font-size: 36px;
   margin: 0;
 }
+
 header{
   padding: 10px 15px;
 }
@@ -255,4 +256,48 @@ footer{
   color: #adadad;
   background-color: #030303;
   padding: 20px;
+}
+
+sobre #sobre .cards-2 .paragrafo h3{
+  color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  main div h2 {
+      font-size: 40px; /* Novo tamanho da fonte para telas com 768px */
+      max-width: 350px;
+  }
+
+  main div p{
+    font-size: 20px;
+  }
+
+  section{
+    padding: 60px 20px;
+  }
+  section #produtos #fotos .cards h3{
+    font-size: 22px;
+  }
+  section #produtos #fotos .cards img{
+    max-height: 100px;
+  }
+  section #produtos #fotos .cards p{
+    font-size: 16px;
+  }
+  sobre{
+    padding: 60px 20px;
+  }
+  sobre #sobre .cards-2 .paragrafo{
+    padding: 15px;
+  }
+  sobre #sobre .cards-2 .paragrafo h3{
+    font-size: 22px;
+  }
+  sobre #sobre .cards-2 .paragrafo p{
+    font-size: 16px;
+  }
+  nav{
+    padding: 60px 20px;
+  }
+
 }
