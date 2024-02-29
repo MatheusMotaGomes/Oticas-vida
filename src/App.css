@@ -19,15 +19,22 @@ main div h2,h3{
 header{
   padding: 10px 15px;
 }
+
 header div{
   display: flex;
   align-items: center;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
+
+header #div-2{
+  justify-content: flex-end;
+}
+
 header div img{
   width: 150px;
 }
+
 header div a{
   font-size: 18px;
   color: #000;
@@ -35,6 +42,7 @@ header div a{
   padding: 5px;
   margin: 5px;
 }
+
 main {
   background-image: url('/src/assets/capa.png');
   background-repeat: no-repeat;
@@ -299,5 +307,32 @@ sobre #sobre .cards-2 .paragrafo h3{
   nav{
     padding: 60px 20px;
   }
+}
 
+@media(max-width: 550px){
+  header div{
+    display: block;
+    text-align: center;
+    
+  }
+  header div a{
+    border-top: 1px solid #aaadaf;
+  }
+
+  main{
+    background-position: 89% center;
+  }
+
+  section{
+    padding: 0 10px;
+  }
+
+  section #produtos #fotos .cards{
+    width: 100%;
+  }
+
+  section #produtos #fotos .paragrafo-lista ul{
+    display: flex;
+    align-items: flex-start;
+  }
 }
