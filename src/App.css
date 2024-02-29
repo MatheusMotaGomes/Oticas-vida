@@ -335,4 +335,34 @@ sobre #sobre .cards-2 .paragrafo h3{
     display: flex;
     align-items: flex-start;
   }
+
+  sobre{
+    padding: 0 10px;
+  }
+
+  sobre #sobre .cards-2 .paragrafo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+  }
+
+  sobre #sobre #subtitulo-e-paragrafo h2{
+    font-size: 22px ;
+  }
+
+  sobre #sobre #subtitulo-e-paragrafo p{
+    font-size: 16px;
+  }
+  sobre #sobre #subtitulo-e-paragrafo{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+  }
+
+  nav{
+    padding: 0 10px;;
+  }
 }
