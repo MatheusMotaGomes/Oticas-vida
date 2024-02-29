@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Oticas-vida/static/css/main.c69251d4.css",
+    "main.js": "/Oticas-vida/static/js/main.4e65b325.js",
+    "static/js/453.36068e76.chunk.js": "/Oticas-vida/static/js/453.36068e76.chunk.js",
+    "static/media/atendimento.png": "/Oticas-vida/static/media/atendimento.e03d6c4f02fa26d0e1bd.png",
+    "static/media/oculos04.png": "/Oticas-vida/static/media/oculos04.2b4ef3046472f1e65e3c.png",
+    "static/media/capa.png": "/Oticas-vida/static/media/capa.44a9e1db5439c08db3da.png",
+    "static/media/oculos01.png": "/Oticas-vida/static/media/oculos01.6f54a4b935d414714b05.png",
+    "static/media/loja.png": "/Oticas-vida/static/media/loja.b9dd553b1f5324ca19d8.png",
+    "static/media/oculos03.png": "/Oticas-vida/static/media/oculos03.5551db3a9fed6348356a.png",
+    "static/media/oculos02.png": "/Oticas-vida/static/media/oculos02.120e034f9037c3e7f5ce.png",
+    "static/media/logo.png": "/Oticas-vida/static/media/logo.de2cc3bbc4d89ca71721.png",
+    "index.html": "/Oticas-vida/index.html",
+    "main.c69251d4.css.map": "/Oticas-vida/static/css/main.c69251d4.css.map",
+    "main.4e65b325.js.map": "/Oticas-vida/static/js/main.4e65b325.js.map",
+    "453.36068e76.chunk.js.map": "/Oticas-vida/static/js/453.36068e76.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c69251d4.css",
+    "static/js/main.4e65b325.js"
+  ]
+}
